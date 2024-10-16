@@ -1,0 +1,20 @@
+|-- backend/
+    |-- config/
+        |-- database.js
+    |-- models/
+        |-- index.js
+        |-- student.js
+        |-- course.js
+        |-- assignment.js
+    |-- controllers/
+        |-- studentController.js
+        |-- courseController.js
+        |-- assignmentController.js
+    |-- routes/
+        |-- studentRoutes.js
+        |-- courseRoutes.js
+        |-- assignmentRoutes.js
+    |-- middleware/
+        |-- authMiddleware.js
+    |-- server.js
+    |-- .env
