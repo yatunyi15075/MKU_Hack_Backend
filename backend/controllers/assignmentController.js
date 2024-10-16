@@ -3,10 +3,10 @@ import Assignment from '../models/assignment.js';
 
 export const getAssignments = async (req, res) => {
   try {
-    const assignments = await Assignment.findAll();
+    const assignments = await Assignment.findAll(); 
     res.status(200).json(assignments);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: error.message }); 
   }
 };
 
