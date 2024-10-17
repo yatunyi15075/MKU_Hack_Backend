@@ -1,12 +1,11 @@
-// controllers/sttController.js
 import speech from '@google-cloud/speech';
 import fs from 'fs';
 
 const client = new speech.SpeechClient();
 
 export const convertSpeechToText = async (req, res) => {
-  const audioFile = req.file.path; // Assume audio is uploaded as a file
-
+  const audioFile = req.file.path;
+  
   const audio = {
     content: fs.readFileSync(audioFile).toString('base64'),
   };
