@@ -1,5 +1,6 @@
 // controllers/aiAssistantController.js
 import { Configuration, OpenAIApi } from 'openai';
+import doten from 'dotenv';
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
