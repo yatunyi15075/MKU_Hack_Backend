@@ -1,4 +1,3 @@
-// controllers/progressController.js
 import Progress from '../models/progress.js';
 
 export const getStudentProgress = async (req, res) => {
