@@ -1,4 +1,3 @@
-// controllers/ttsController.js
 import textToSpeech from '@google-cloud/text-to-speech';
 import fs from 'fs';
 import util from 'util';
